@@ -3,21 +3,11 @@
     height: 100vh;
 
     display: flex;
+    justify-content: space-between;
     align-items: center;
 
     background-color: #fff;
     padding: 116px 0 0 0;
-}
-
-.container {
-    width: 100%;
-    max-width: 1440px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: 0 auto;
 }
 
 .left {
