@@ -19,7 +19,7 @@ const HeroSection = () => {
                     </p>
 
                     <CustomButton
-                        onClick={() => {}}
+                        onClick={() => { console.log('clicked'); }}
                     >
                         BOOK NOW!
                     </CustomButton>
