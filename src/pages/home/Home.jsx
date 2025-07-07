@@ -10,11 +10,7 @@ const Home = () => {
     return (
         <>
             <Header />
-
-            <div className={cl.container}>
-                <HeroSection />
-            </div>
-
+            <HeroSection />
             <StylesSection />
 
             <div className={cl.container}>

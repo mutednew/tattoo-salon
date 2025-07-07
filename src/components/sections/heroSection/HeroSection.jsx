@@ -4,17 +4,13 @@ import cl from './HeroSection.module.css';
 const HeroSection = () => {
     return (
         <div className={cl.hero}>
-            <h1 className={cl.backgroundText}>TATTOO</h1>
+            <img className={cl.backgroundText} src="/TATTOO.png" alt="TATTOO" />
 
             <div className={cl.container}>
-                {/* Левая часть — изображение */}
                 <div className={cl.left}>
-                    <div className={cl.imageWrapper}>
-                        <img src="/hero_logo.png" alt="Tattoo" />
-                    </div>
+                    <img src="/FacelessMan.png" alt=""/>
                 </div>
 
-                {/* Правая часть — текст и кнопка */}
                 <div className={cl.right}>
                     <h2 className={cl.title}>Tattoo Studio</h2>
                     <p className={cl.text}>
@@ -28,6 +24,8 @@ const HeroSection = () => {
             <div className={cl.sideText}>
                 <span>FAEZ</span>
             </div>
+
+            {/*  Arrow  */}
         </div>
     );
 };
