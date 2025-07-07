@@ -4,14 +4,14 @@ import cl from './HeroSection.module.css';
 const HeroSection = () => {
     return (
         <div className={cl.hero}>
+            <h1 className={cl.backgroundText}>TATTOO</h1>
+
             <div className={cl.container}>
                 {/* Левая часть — изображение */}
                 <div className={cl.left}>
                     <div className={cl.imageWrapper}>
                         <img src="/hero_logo.png" alt="Tattoo" />
                     </div>
-
-                    <h1 className={cl.backgroundText}>TATTOO</h1>
                 </div>
 
                 {/* Правая часть — текст и кнопка */}
