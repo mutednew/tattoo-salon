@@ -15,8 +15,8 @@ const Home = () => {
 
             <div className={cl.container}>
                 <CultureSection />
-                <Footer />
             </div>
+            <Footer />
         </>
     );
 };
