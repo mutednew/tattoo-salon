@@ -42,4 +42,10 @@
 
 .navigation nav{
     font-size: 28px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.navigation nav:hover{
+    color: #D73131;
 }
