@@ -25,7 +25,9 @@ const HeroSection = () => {
                 <span>FAEZ</span>
             </div>
 
-            {/*  Arrow  */}
+            <div className={cl.arrowBtn}>
+                <span></span>
+            </div>
         </div>
     );
 };

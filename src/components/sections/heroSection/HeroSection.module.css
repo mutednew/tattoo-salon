@@ -1,6 +1,6 @@
 .hero {
-    width: 100%;
     position: relative;
+    width: 100%;
     height: 100vh;
 
     display: flex;
@@ -75,7 +75,7 @@
 
     border-radius: 100px;
 
-    padding: 15px 50px;
+    padding: 24px 50px;
     background-color: #000;
     transition: background 0.3s;
 }
@@ -115,6 +115,7 @@
     height: 80px;
     background-color: #000000;
 }
+
 .sideText span::after {
     content: "";
     position: absolute;
@@ -125,4 +126,56 @@
     width: 1px;
     height: 80px;
     background-color: #000000;
+}
+
+.arrowBtn {
+    cursor: pointer;
+
+    position: absolute;
+    top: 85%;
+    right: 25px;
+
+    display: flex;
+    justify-content: center;
+
+    width: 40px;
+    height: 70px;
+}
+
+.arrowBtn span {
+    position: absolute;
+
+    width: 5px;
+    height: 66px;
+
+    border-radius: 100px;
+    background: linear-gradient(0deg, #A8A8A8, rgba(244, 240, 240, .42));
+}
+
+.arrowBtn span::before {
+    content: "";
+    position: absolute;
+    top: 69%;
+    right: -7px;
+
+    width: 5px;
+    height: 25px;
+
+    transform: rotate(45deg);
+    border-radius: 100px;
+    background: #A8A8A8;
+}
+
+.arrowBtn span::after {
+    content: "";
+    position: absolute;
+    top: 69%;
+    left: -7px;
+
+    width: 5px;
+    height: 25px;
+
+    transform: rotate(-45deg);
+    border-radius: 100px;
+    background: #A8A8A8;
 }
