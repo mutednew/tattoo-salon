@@ -19,7 +19,6 @@ const StylesSection = () => {
                         </p>
 
                         <CustomButton
-                            onClick={() => { console.log('clicked'); }}
                             backgroundColor="#ECECEC"
                             color="#000"
                         >
