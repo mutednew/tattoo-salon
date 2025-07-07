@@ -1,5 +1,6 @@
 import React from 'react';
 import cl from './HeroSection.module.css';
+import CustomButton from "../../UI/button/CustomButton.jsx";
 
 const HeroSection = () => {
     return (
@@ -17,7 +18,11 @@ const HeroSection = () => {
                         Lorem Ipsom Sole Dowa Bro Js F Asd Kasmd Axsdkakj Askd Asna Ksdka A Skd Asdm Asdj Asn Asjd Asjn Asn Ask
                     </p>
 
-                    <button className={cl.button}>BOOK NOW!</button>
+                    <CustomButton
+                        onClick={() => {}}
+                    >
+                        BOOK NOW!
+                    </CustomButton>
                 </div>
             </div>
 
