@@ -29,6 +29,10 @@ const StylesSection = () => {
                         <img src="/styles.png" alt="styles" />
                     </div>
                 </div>
+
+                <div className={cl.arrowBtn}>
+                    <span></span>
+                </div>
             </div>
         </>
     );
