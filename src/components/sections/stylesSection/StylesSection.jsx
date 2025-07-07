@@ -1,5 +1,6 @@
 import React from 'react';
 import cl from './StylesSection.module.css';
+import CustomButton from "../../UI/button/CustomButton.jsx";
 
 const StylesSection = () => {
     return (
@@ -8,6 +9,7 @@ const StylesSection = () => {
                 <div className={cl.container}>
                     <div className={cl.info}>
                         <h3>Various Styles</h3>
+
                         <p>
                             Discover unique, custom tattoo designs crafted
                             with passion and precision. Whether you want
@@ -15,7 +17,14 @@ const StylesSection = () => {
                             every piece is tailored to express your story.
                             Step into the studio and wear your art proudly.
                         </p>
-                        <button>Designs</button>
+
+                        <CustomButton
+                            onClick={() => { console.log('clicked'); }}
+                            backgroundColor="#ECECEC"
+                            color="#000"
+                        >
+                            DESIGNS
+                        </CustomButton>
                     </div>
                     <div>
                         <img src="/styles.png" alt="styles" />
